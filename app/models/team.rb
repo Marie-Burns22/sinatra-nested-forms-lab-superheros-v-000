@@ -1,5 +1,5 @@
 class Team 
-  attr_reader :name, :motto, 
+  attr_reader :name, :motto 
   
   @@all = []
   
