@@ -7,10 +7,10 @@ class Hero
     @@all 
   end
   
-  def initialize(params)
-    @name = params[:name]
-    @power = params[:power]
-    @biography = params[:biography]
+  def initialize(details)
+    @name = details[:name]
+    @power = details[:power]
+    @biography = details[:biography]
     @@all << self
   end
   
